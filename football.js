@@ -1,15 +1,15 @@
 
 // The first solution
 
-function fottballPoints(wins, draws, losses){
+function footballPoints(wins, draws, losses){
     return wins*3 + draws 
 }
-console.log("the first solution ", fottballPoints(3,3,90))
+console.log("the first solution ", footballPoints(3,3,90))
 
 
 // The second one 
-fottballPoints2 = (w,d,l) =>(3*w)+d
-console.log("the second solution ", fottballPoints2(2,3,3))
+footballPoints2 = (w,d,l) =>(3*w)+d
+console.log("the second solution ", footballPoints2(2,3,3))
 
 
 // The third  solution
